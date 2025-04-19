@@ -35,7 +35,7 @@ body = info
 message.set_content(body)
 
 logggin = "dlugoleckijanek1@gmil.com" #<--- tu wpisz swoj adres email do gmaila
-password = "anonimus12345" #<--- tu wpisz swoje haslo do gmaila
+password = "hasło" #<--- tu wpisz swoje haslo do gmaila
 mail_server = smtplib.SMTP_SSL('smtp.gmail.com')
 mail_server.set_debuglevel(1)
 mail_server.login(logggin,password)
